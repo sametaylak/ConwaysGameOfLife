@@ -62,8 +62,8 @@ window.onload = () => {
       }
   }
 
-  update ();
-  function update() {
+  update();
+  function update () {
     grid = calculate();
     draw();
     requestAnimationFrame(update);
